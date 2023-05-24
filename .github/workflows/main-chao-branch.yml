@@ -7,7 +7,7 @@ on:
 
 env:
   PROJECT_ID: mission-4-devops-chao # TODO: update Google Cloud project id
-  SERVICE: carvalue-api # TODO: update Cloud Run service name
+  SERVICE: sa-carvalue-api # TODO: update Cloud Run service name
   REGION: australia-southeast2 # TODO: update Cloud Run service region
 
 jobs:
