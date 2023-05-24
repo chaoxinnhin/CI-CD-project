@@ -17,6 +17,7 @@ export const carValidationGrace = (request: Request, response: Response) => {
   const inputs: CarData = { model: "Grace", year: 2008, car_value: 0 };
 
   const value = carValueAPI.calculateCarValue(inputs);
+  const finalValue = { model: "Grace", year: 2008, car_value: value };
   response.send(value);
 };
 
