@@ -38,7 +38,7 @@ describe("Number and text together", () => {
     const response = createResponse();
 
     const expected = {
-      car_value: 4610,
+      4610,
     };
 
     // Act
@@ -57,7 +57,7 @@ describe("Numbers only", () => {
     const response = createResponse();
 
     const expected = {
-      car_value: 2015,
+      2015,
     };
 
     // Act
@@ -76,7 +76,7 @@ describe("Too Long of a name", () => {
     const response = createResponse();
 
     const expected = {
-      car_value: 2015,
+      2015,
     };
 
     // Act
@@ -96,7 +96,7 @@ describe("Is old is gold?", () => {
     const response = createResponse();
 
     const expected = {
-      car_value: 7983,
+      7983,
     };
 
     // Act
@@ -115,7 +115,7 @@ describe("The number is way too long", () => {
     const response = createResponse();
 
     const expected = {
-      car_value: 7983,
+      7983,
     };
 
     // Act
