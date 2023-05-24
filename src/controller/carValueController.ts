@@ -17,6 +17,7 @@ export const carValidationGrace = (request: Request, response: Response) => {
   const inputs: CarData = { model: "Grace", year: 2008, car_value: 0 };
 
   const value = carValueAPI.calculateCarValue(inputs);
+
   const finalValue = { model: "Grace", year: 2008, car_value: value };
   response.send(finalValue);
 };
@@ -30,7 +31,9 @@ export const calculateNumberAndTextValue = (
   const inputs: CarData = { model: "Bt-50D", year: 2010, car_value: 0 };
 
   const value = carValueAPI.calculateCarValue(inputs);
-  response.send(value);
+
+  const finalValue = { model: "Bt-50D", year: 2010, car_value: value };
+  response.send(finalValue);
 };
 
 export const calculateNumberOnlyValue = (
@@ -42,7 +45,8 @@ export const calculateNumberOnlyValue = (
   const inputs: CarData = { model: "380", year: 2015, car_value: 0 };
 
   const value = carValueAPI.calculateCarValue(inputs);
-  response.send(value);
+  const finalValue = { model: "380", year: 2015, car_value: value };
+  response.send(finalValue);
 };
 
 export const validateLongNames = (request: Request, response: Response) => {
@@ -65,7 +69,8 @@ export const calculateCamryValue = (request: Request, response: Response) => {
   const inputs: CarData = { model: "Camry", year: 1983, car_value: 0 };
 
   const value = carValueAPI.calculateCarValue(inputs);
-  response.send(value);
+  const finalValue = { model: "Camry", year: 1983, car_value: value };
+  response.send(finalValue);
 };
 
 export const longYearValidation = (request: Request, response: Response) => {
