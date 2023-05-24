@@ -8,8 +8,8 @@ on:
     branches:
       - riskratinggc
 env:
-  PROJECT_ID: turnermission4 # TODO: update Google Cloud project id
-  SERVICE: riskratingapi # TODO: update Cloud Run service name
+  PROJECT_ID: risk-rating-api # TODO: update Google Cloud project id
+  SERVICE: sa-riskboi # TODO: update Cloud Run service name
   REGION: australia-southeast2 # TODO: update Cloud Run service region
 
 jobs:
