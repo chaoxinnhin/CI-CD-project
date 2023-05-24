@@ -14,7 +14,7 @@ test("Adds the Ferrari value and 2014 value to equal to 9514", () => {
     year: 2014,
     car_value: 0,
   };
-  const expected = { car_value: 9514 };
+  const expected = 9514 ;
 
   // Act
   const actual = calculateCarValue(input);
@@ -30,7 +30,7 @@ test("Adds the Grace value and 2008 value to equal to 5408", () => {
     year: 2008,
     car_value: 0,
   };
-  const expected = { car_value: 5408 };
+  const expected = 5408;
 
   // Act
   const actual = calculateCarValue(input);
@@ -58,7 +58,7 @@ test("Adds Bt-50D value and 2010 value to equal to 1410", () => {
     year: 2010,
     car_value: 0,
   };
-  const expected = { car_value: 4610 };
+  const expected = 4610;
 
   // Act
   const actual = calculateCarValue(input);
@@ -74,7 +74,7 @@ test("Adds 305 value and 2015 value to equal to 2015", () => {
     year: 2015,
     car_value: 0,
   };
-  const expected = { car_value: 2015 };
+  const expected = 2015;
 
   // Act
   const actual = calculateCarValue(input);
@@ -102,7 +102,7 @@ test("Adds Camry value and 1983 value to equal to 7983", () => {
     year: 1983,
     car_value: 0,
   };
-  const expected = { car_value: 7983 };
+  const expected =7983;
 
   // Act
   const actual = calculateCarValue(input);
