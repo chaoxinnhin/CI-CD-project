@@ -30,7 +30,6 @@ describe("createClaim", () => {
     const input = {
       claim:
         "I had a collision with another car last year, but no other incidents",
-      riskRating: 2,
     };
     const matches = input.claim.match(claimKeywords);
     const rating = matches ? matches.length : 0;
