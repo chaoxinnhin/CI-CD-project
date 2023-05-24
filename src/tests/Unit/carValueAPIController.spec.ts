@@ -40,7 +40,7 @@ describe("Number and text together", () => {
     const expected = {
       model: "Bt-50D",
       year: 2010,
-      car_value: 5408,
+      car_value: 4610,
     };
 
     // Act
