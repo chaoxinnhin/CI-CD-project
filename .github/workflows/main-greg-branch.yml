@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - riskratinggc
-  pull_request:
-    branches:
-      - riskratinggc
+
 env:
   PROJECT_ID: risk-rating-api # TODO: update Google Cloud project id
   SERVICE: sa-riskboi # TODO: update Cloud Run service name
