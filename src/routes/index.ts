@@ -1,5 +1,5 @@
 import express from "express";
-import * as taskController from "../controller/riskratingConroller";
+import * as taskController from "../controller/riskratingController";
 
 const router = express.Router();
 

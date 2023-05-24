@@ -5,7 +5,7 @@ import {
 } from "../services/riskService";
 
 describe("getAllClaims", () => {
-  test("should return a default Task", () => {
+  test("should return a default claim", () => {
     // Arrange
     const expected = [
       {
@@ -50,7 +50,7 @@ describe("createClaim", () => {
 });
 
 describe("getOneTask", () => {
-  test("should return a task by Id", () => {
+  test("should return a claim by Id", () => {
     //Arrange
     const input = 2;
     const expected = {
