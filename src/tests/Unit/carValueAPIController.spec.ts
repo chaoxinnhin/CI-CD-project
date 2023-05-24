@@ -17,6 +17,8 @@ describe("Calculate car value", () => {
     const response = createResponse();
 
     const expected = {
+      model: "Grace",
+      year: 2008,
       car_value: 5408,
     };
 
