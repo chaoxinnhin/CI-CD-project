@@ -31,6 +31,8 @@ export const calculateNumberAndTextValue = (
   const inputs: CarData = { model: "Bt-50D", year: 2010, car_value: 0 };
 
   const value = carValueAPI.calculateCarValue(inputs);
+
+  const finalValue = { model: "Bt-50D", year: 2010, car_value: value };
   response.send(value);
 };
 
@@ -43,6 +45,7 @@ export const calculateNumberOnlyValue = (
   const inputs: CarData = { model: "380", year: 2015, car_value: 0 };
 
   const value = carValueAPI.calculateCarValue(inputs);
+  const finalValue = { model: "380", year: 2015, car_value: value };
   response.send(value);
 };
 
@@ -66,6 +69,7 @@ export const calculateCamryValue = (request: Request, response: Response) => {
   const inputs: CarData = { model: "Camry", year: 1983, car_value: 0 };
 
   const value = carValueAPI.calculateCarValue(inputs);
+  const finalValue = { model: "Camry", year: 1983, car_value: value };
   response.send(value);
 };
 
