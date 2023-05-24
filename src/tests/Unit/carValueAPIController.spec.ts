@@ -37,9 +37,7 @@ describe("Number and text together", () => {
     const request = createRequest();
     const response = createResponse();
 
-    const expected = {
-      car_value: 4610,
-    };
+    const expected = 4610;
 
     // Act
     calculateNumberAndTextValue(request, response);
@@ -56,9 +54,7 @@ describe("Numbers only", () => {
     const request = createRequest();
     const response = createResponse();
 
-    const expected = {
-      car_value: 2015,
-    };
+    const expected = 2015;
 
     // Act
     calculateNumberOnlyValue(request, response);
@@ -75,9 +71,7 @@ describe("Too Long of a name", () => {
     const request = createRequest();
     const response = createResponse();
 
-    const expected = {
-      car_value: 2015,
-    };
+    const expected = 2015;
 
     // Act
     validateLongNames(request, response);
@@ -95,9 +89,7 @@ describe("Is old is gold?", () => {
     const request = createRequest();
     const response = createResponse();
 
-    const expected = {
-      car_value: 7983,
-    };
+    const expected = 7983;
 
     // Act
     calculateCamryValue(request, response);
@@ -114,9 +106,7 @@ describe("The number is way too long", () => {
     const request = createRequest();
     const response = createResponse();
 
-    const expected = {
-      car_value: 7983,
-    };
+    const expected = 7983;
 
     // Act
     longYearValidation(request, response);
