@@ -33,7 +33,7 @@ export const calculateNumberAndTextValue = (
   const value = carValueAPI.calculateCarValue(inputs);
 
   const finalValue = { model: "Bt-50D", year: 2010, car_value: value };
-  response.send(value);
+  response.send(finalValue);
 };
 
 export const calculateNumberOnlyValue = (
@@ -46,7 +46,7 @@ export const calculateNumberOnlyValue = (
 
   const value = carValueAPI.calculateCarValue(inputs);
   const finalValue = { model: "380", year: 2015, car_value: value };
-  response.send(value);
+  response.send(finalValue);
 };
 
 export const validateLongNames = (request: Request, response: Response) => {
@@ -70,7 +70,7 @@ export const calculateCamryValue = (request: Request, response: Response) => {
 
   const value = carValueAPI.calculateCarValue(inputs);
   const finalValue = { model: "Camry", year: 1983, car_value: value };
-  response.send(value);
+  response.send(finalValue);
 };
 
 export const longYearValidation = (request: Request, response: Response) => {
