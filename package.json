@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "tsnd src/server.ts",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "build": "tsc"
   },
   "devDependencies": {
     "@jest/globals": "^29.5.0",
