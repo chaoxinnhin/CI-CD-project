@@ -5,6 +5,4 @@ const router = express.Router();
 
 router.get("/", carValueController.carValidationGrace);
 
-router.get("/", carValueController.calculateCarValue);
-
 export default router;
