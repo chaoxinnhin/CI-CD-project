@@ -1,5 +1,8 @@
 import { createRequest, createResponse } from "node-mocks-http";
-import { getAllClaims, getOneClaim } from "../controller/riskratingController";
+import {
+  getAllClaims,
+  getOneClaim,
+} from "../../controller/riskratingController";
 
 describe("getAllClaims", () => {
   test("should send all tasks via res", () => {
