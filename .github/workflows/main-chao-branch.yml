@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - chao
-      - main
 
 env:
   PROJECT_ID: mission-4-devops-chao # TODO: update Google Cloud project id
