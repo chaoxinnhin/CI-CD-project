@@ -38,7 +38,9 @@ describe("Number and text together", () => {
     const response = createResponse();
 
     const expected = {
-      4610,
+      model: "Bt-50D",
+      year: 2010,
+      car_value: 4610,
     };
 
     // Act
@@ -57,7 +59,9 @@ describe("Numbers only", () => {
     const response = createResponse();
 
     const expected = {
-      2015,
+      model: "380",
+      year: 2015,
+      car_value: 2015,
     };
 
     // Act
@@ -74,9 +78,10 @@ describe("Too Long of a name", () => {
     // Arrange
     const request = createRequest();
     const response = createResponse();
-
     const expected = {
-      2015,
+      model: "380",
+      year: 2015,
+      car_value: 2015,
     };
 
     // Act
@@ -96,7 +101,9 @@ describe("Is old is gold?", () => {
     const response = createResponse();
 
     const expected = {
-      7983,
+      model: "Camry",
+      year: 1983,
+      car_value: 7983,
     };
 
     // Act
@@ -114,9 +121,7 @@ describe("The number is way too long", () => {
     const request = createRequest();
     const response = createResponse();
 
-    const expected = {
-      7983,
-    };
+    const expected = 7983;
 
     // Act
     longYearValidation(request, response);
