@@ -1,4 +1,4 @@
-import app from "../../app";
+import server from "../../server";
 
 const request = require("supertest");
 
@@ -10,7 +10,7 @@ describe("CarInfo API", () => {
     };
 
     // Act
-    const res = await request(app).get("/api/car_value");
+    const res = await request(server).get("/api/car_value");
 
     // Assert
     expect(res.status).toEqual(200);
