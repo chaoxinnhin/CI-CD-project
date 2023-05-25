@@ -6,6 +6,11 @@ let claims = [
     claim: "there has been no accidents in the past 3 years",
     riskRating: 1,
   },
+  {
+    id: 2,
+    claim: "i have crashed into a lampost and have several scratches",
+    riskRating: 3,
+  },
 ];
 
 export const getAllClaims = () => {
