@@ -8,6 +8,10 @@ export const getAllClaims = (req: Request, res: Response) => {
 
 export const createOneClaim = (req: Request, res: Response) => {
   const claim = req.body.claim;
+  if (typeof claim !== "string") {
+    return res.status(400).send("Invalid claim format");
+  }
+
   const newClaim = riskService.createOneClaim(claim);
 
   res.status(201).send(newClaim);
@@ -46,12 +50,12 @@ export const updateClaim = (req: Request, res: Response) => {
   const riskRating = req.body.riskRating;
 
   try {
-    const updatedTask = riskService.updateClaim({
+    const updatedClaim = riskService.updateClaim({
       id: taskId,
       claim,
       riskRating,
     });
-    res.send(updatedTask);
+    res.send(updatedClaim);
   } catch (e) {
     res.status(404).send(e);
   }
@@ -64,12 +68,12 @@ export const updateClaimPartial = (req: Request, res: Response) => {
   const riskRating = req.body.riskRating;
 
   try {
-    const updatedTask = riskService.updateClaimPartial({
+    const updatedClaim = riskService.updateClaimPartial({
       id: taskId,
       claim,
       riskRating,
     });
-    res.send(updatedTask);
+    res.send(updatedClaim);
   } catch (e) {
     res.status(404).send(e);
   }
