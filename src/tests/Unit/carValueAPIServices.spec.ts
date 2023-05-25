@@ -70,7 +70,7 @@ test("Adds Bt-50D value and 2010 value to equal to 1410", () => {
 test("Adds 305 value and 2015 value to equal to 2015", () => {
   // Arrange
   const input = {
-    model: "105",
+    model: "305",
     year: 2015,
     car_value: 0,
   };
