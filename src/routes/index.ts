@@ -7,4 +7,6 @@ router.get("/", carValueController.carValidationGrace);
 
 router.get("/", carValueController.calculateCarValue);
 
+router.post("/", carValueController.calculateCarValue);
+
 export default router;
