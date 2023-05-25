@@ -6,6 +6,7 @@ import {
   calculateCamryValue,
   longYearValidation,
 } from "../../controller/carValueController";
+import { json } from "stream/consumers";
 import { CarData } from "../../types/CarData";
 import { createRequest, createResponse } from "node-mocks-http";
 

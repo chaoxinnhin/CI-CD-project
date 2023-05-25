@@ -8,6 +8,7 @@ export const calculateCarValue = (request: Request, response: Response) => {
   const inputs: CarData = { model, year, car_value };
 
   const value = carValueAPI.calculateCarValue(inputs);
+  const finalValue = { model, year, car_value: value };
   response.send(value);
 };
 

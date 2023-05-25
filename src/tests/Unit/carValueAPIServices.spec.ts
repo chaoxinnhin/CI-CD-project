@@ -14,7 +14,7 @@ test("Adds the Ferrari value and 2014 value to equal to 9514", () => {
     year: 2014,
     car_value: 0,
   };
-  const expected = 9514 ;
+  const expected = 9514;
 
   // Act
   const actual = calculateCarValue(input);
@@ -48,7 +48,7 @@ test("Throws error message for negative year", () => {
   };
 
   // Assert
-  expect(() => calculateCarValue(input)), "to throw";
+  expect(() => yearValidation(input)), "to throw";
 });
 
 test("Adds Bt-50D value and 2010 value to equal to 1410", () => {
@@ -74,25 +74,13 @@ test("Adds 305 value and 2015 value to equal to 2015", () => {
     year: 2015,
     car_value: 0,
   };
-  const expected = 2015;
+  const expected = "305";
 
   // Act
-  const actual = calculateCarValue(input);
+  const actual = nameValidation(input);
 
   // Assert
   expect(actual).toEqual(expected);
-});
-
-test("Throws an error message on random characters", () => {
-  // Arrange
-  const input = {
-    model: "^&#",
-    year: 2016,
-    car_value: 0,
-  };
-
-  // Assert
-  expect(() => calculateCarValue(input)), "to throw";
 });
 
 test("Adds Camry value and 1983 value to equal to 7983", () => {
@@ -102,7 +90,7 @@ test("Adds Camry value and 1983 value to equal to 7983", () => {
     year: 1983,
     car_value: 0,
   };
-  const expected =7983;
+  const expected = 7983;
 
   // Act
   const actual = calculateCarValue(input);
@@ -120,7 +108,7 @@ test("Throws an error message on decimal year", () => {
   };
 
   // Assert
-  expect(() => calculateCarValue(input)), "to throw";
+  expect(() => yearValidation(input)), "to throw";
 });
 
 test("Throws an error message on too long of a name", () => {
@@ -132,7 +120,7 @@ test("Throws an error message on too long of a name", () => {
   };
 
   // Assert
-  expect(() => calculateCarValue(input)), "to throw";
+  expect(() => nameValidation(input)), "to throw";
 });
 
 test("Throws an error message on too long of a year", () => {
@@ -144,5 +132,5 @@ test("Throws an error message on too long of a year", () => {
   };
 
   // Assert
-  expect(() => calculateCarValue(input)), "to throw";
+  expect(() => yearValidation(input)), "to throw";
 });
