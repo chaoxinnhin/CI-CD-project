@@ -74,7 +74,7 @@ test("Adds 305 value and 2015 value to equal to 2015", () => {
     year: 2015,
     car_value: 0,
   };
-  const expected = 305;
+  const expected = "305";
 
   // Act
   const actual = nameValidation(input);
