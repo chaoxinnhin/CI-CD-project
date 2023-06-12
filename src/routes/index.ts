@@ -2,7 +2,6 @@ import express from "express";
 import * as carValueController from "../controller/carValueController";
 
 const router = express.Router();
-router.post("/", carValueController.calculateCarValue);
-router.get("/", carValueController.calculateCarValue);
+router.get("/", carValueController.carValidationGrace);
 
 export default router;
