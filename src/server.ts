@@ -15,4 +15,3 @@ server.listen(PORT, () => {
   console.log(`The server is started on port ${PORT}`);
 });
 
-export default server;
