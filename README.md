@@ -104,7 +104,7 @@ yarn add -D typescript ts-node-dev @types/node @types/express
 
 ## Contact
 
-Chao Xin - chaon@missionreadyhq.com
+Chao Xin - chaoxin.nhin@gmail.com
 
 Project Link: https://github.com/chaoxinnhin/Mission-4-LV5-ADV.git
 
