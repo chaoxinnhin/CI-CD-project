@@ -35,7 +35,5 @@ export const calculateCarValue = (data: CarData) => {
       100 +
     year;
 
-  const result = carValue;
-
-  return result;
+  return carValue;
 };
