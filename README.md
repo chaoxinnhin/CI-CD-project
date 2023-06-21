@@ -25,10 +25,10 @@
 <img src="./src/images/">
   </a>
 
-<h3 align="center">Calculating a car value for Turners Car Insurance</h3>
+<h3 align="center">CI/CD Project</h3>
 
   <p align="center">
-    Mission 3
+    Mission 4
 </div>
 
 <!-- TABLE OF CONTENTS -->
