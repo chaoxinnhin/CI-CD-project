@@ -22,7 +22,7 @@
 <!-- PROJECT -->
 <br />
 <div align="center">
-<img src="./src/images/turnerscars_logo_1line_horz_true-rgb-desktop.png">
+<img src="./src/images/">
   </a>
 
 <h3 align="center">Calculating a car value for Turners Car Insurance</h3>
