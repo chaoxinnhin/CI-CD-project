@@ -22,7 +22,7 @@
 <!-- PROJECT -->
 <br />
 <div align="center">
-<img src="./src/images/Typescript_logo_2020.svg.png">
+<img src="./src/images/Typescript_logo_2020.svg.png" width="50px">
   </a>
 
 <h3 align="center">CI/CD Project</h3>
@@ -71,10 +71,10 @@ TS-Node
 
 ## Getting Started
 
-You can copy the link by clicking on code and it should reveal the link. Once you have copied the code, hop into your Visual Studio Code and type in your terminal
+First, You change the branch to chao and copy the link by clicking on code and it should reveal the link. Once you have copied the code, hop into your Visual Studio Code and type in your terminal
 
 ```
- git clone https://github.com/chaoxinnhin/Mission-1-LV5-ADV.git
+ https://github.com/chaoxinnhin/Mission-4-LV5-ADV.git
 ```
 
 That should clone this repository into your files. Make sure to open the directory into your terminal and enter the following:
