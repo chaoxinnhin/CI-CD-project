@@ -96,9 +96,8 @@ In case you haven't installed Node packages and testing kits for typescript, jus
 ```
 https://jestjs.io/docs/getting-started
 ```
-
+```
 yarn add -D typescript ts-node-dev @types/node @types/express
-
 ```
 
 <!-- CONTACT -->
