@@ -22,7 +22,7 @@
 <!-- PROJECT -->
 <br />
 <div align="center">
-<img src="./src/images/Typescript_logo_2020.svg.png" width="50px">
+<img src="./src/images/Typescript_logo_2020.svg.png" width="150px">
   </a>
 
 <h3 align="center">CI/CD Project</h3>
