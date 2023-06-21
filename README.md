@@ -22,7 +22,7 @@
 <!-- PROJECT -->
 <br />
 <div align="center">
-<img src="./src/images/">
+<img src="./src/images/Typescript_logo_2020.svg.png">
   </a>
 
 <h3 align="center">CI/CD Project</h3>
@@ -55,7 +55,7 @@
 
 ## About The Project
 
-Here is my Mission 4 for LV5 Advanced Software Development. For this project, I build a pipeline that deploys my API from Mission 3 to a cloud automatically.  I needed to build the pipeline using Github Actions so that as soon as I “git push” a new version of the code to my Github repository, the new code will automatically get deployed to Google Cloud Platform, and my new version of API is available on the cloud.  I also automate the running of unit tests as part of the pipeline.
+Here is my Mission 4 for LV5 Advanced Software Development. For this project, I build a pipeline that deploys my API from Mission 3 to a cloud automatically. I needed to build the pipeline using Github Actions so that as soon as I “git push” a new version of the code to my Github repository, the new code will automatically get deployed to Google Cloud Platform, and my new version of API is available on the cloud. I also automate the running of unit tests as part of the pipeline.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +83,7 @@ That should clone this repository into your files. Make sure to open the directo
  ts-node server.ts
 ```
 
-and 
+and
 
 ```
 yarn test
@@ -96,7 +96,9 @@ In case you haven't installed Node packages and testing kits for typescript, jus
 ```
 https://jestjs.io/docs/getting-started
 ```
+
 yarn add -D typescript ts-node-dev @types/node @types/express
+
 ```
 
 <!-- CONTACT -->
@@ -108,3 +110,4 @@ Chao Xin - chaon@missionreadyhq.com
 Project Link: https://github.com/chaoxinnhin/Mission-1-LV5-ADV.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+```
